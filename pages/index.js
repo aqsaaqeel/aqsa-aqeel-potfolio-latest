@@ -150,7 +150,7 @@ export default function Home() {
               I am currently working on another web app which is a gamified
               learning platform. This helps students learn programming languages
               through reinforcement learning by playing simple games. I am
-              really proud of it and can't wait to share with you!
+              really proud of it and can not wait to share with you!
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
