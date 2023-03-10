@@ -62,14 +62,23 @@ export default function Home() {
               Frontend conneuseur with a love for design and building beautiful
               apps. Aqsa loves how code obeys everything she asks it for. When
               she is not coding, she is video editing or writing. Her self
-              learning journey has also lead to cooking food.
+              learning journey has also lead to learning to make the perfect
+              scrambled eggs.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <a href="https://github.com/aqsaaqeel"><AiFillGithub /></a>
-            <a href="https://www.linkedin.com/in/aqsa-aqeel"><AiFillLinkedin /></a>
-            <a href="https://twitter.com/aqsacodes"><AiFillTwitterCircle /></a>
-            <a href="https://www.instagram.com/aqsacodes/"><AiFillInstagram /></a>
+            <a href="https://github.com/aqsaaqeel">
+              <AiFillGithub />
+            </a>
+            <a href="https://www.linkedin.com/in/aqsa-aqeel">
+              <AiFillLinkedin />
+            </a>
+            <a href="https://twitter.com/aqsacodes">
+              <AiFillTwitterCircle />
+            </a>
+            <a href="https://www.instagram.com/aqsacodes/">
+              <AiFillInstagram />
+            </a>
           </div>
           <div className="w-100 h-auto pb-10">
             <div className="relative mx-auto rounded-full h-60 w-60 py-10 mt-5 md:w-80 md:h-80">
@@ -99,51 +108,61 @@ export default function Home() {
             </p>
           </section>
           <div className="lg:flex lg:justify-center gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <div className="flex justify-center">
-                <Image src={code} width={100} height={100} />
-              </div>
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Frontend Development
-              </h3>
-              <p className="py-2">
+            <a href="https://github.com/aqsaaqeel">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 w-auto">
+                <div className="flex justify-center">
+                  <Image src={code} width={100} height={100} />
+                </div>
+                <h3 className="text-lg font-medium pt-8 pb-2">
+                  Frontend Development
+                </h3>
+                {/* <p className="py-2">
                 Developing web apps using modern code practices
               </p>
               <h4 className="py-4 text-teal-600">Development tools</h4>
               <p className="text-gray-800 py-1">ReactJs</p>
               <p className="text-gray-800 py-1">JavaScript</p>
               <p className="text-gray-800 py-1">CSS</p>
-              <p className="text-gray-800 py-1">TypeScript</p>
-            </div>
-
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <div className="flex justify-center">
-                <Image src={blog} width={100} height={100} />
+              <p className="text-gray-800 py-1">TypeScript</p> */}
               </div>
-              <h3 className="text-lg font-medium pt-8 pb-2">Blogs</h3>
-              <p className="py-2">
+            </a>
+
+            <a href="https://hashnode.com/@aqsacodes">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 w-auto">
+                <div className="flex justify-center">
+                  <Image src={blog} width={100} height={100} />
+                </div>
+                <h3 className="text-lg font-medium pt-8 pb-2">
+                  Blogs and Documentation
+                </h3>
+                {/* <p className="py-2">
                 Technical blogs and content writing in general
-              </p>
-            </div>
+              </p> */}
+              </div>
+            </a>
           </div>
           <div>
             <h3 className="text-3xl py-1">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-80">
-              Ever since a kid, I have been fascinated with websites design and
-              engineering in general. And so growing up, I chose{" "}
-              <span className="text-teal-500">frontend development</span>{" "}
-              because it serves as a bridge of both these worlds.
+              These are some of my personal projects that I built while learning
+              to code. <span className="text-teal-500">Hope you like it! </span>{" "}
+              I am currently working on another web app which is a gamified
+              learning platform. This helps students learn programming languages
+              through reinforcement learning by playing simple games. I am
+              really proud of it and can't wait to share with you!
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <div className="relative hover:cursor-pointer">
-                <a href="https://animeedio-video-library.vercel.app/"><Image
-                  src={web1}
-                  className="rounded-lg object-cover blur-sm hover:blur-none"
-                  width={"100%"}
-                  height={"100%"}
-                /></a>
+                <a href="https://animeedio-video-library.vercel.app/">
+                  <Image
+                    src={web1}
+                    className="rounded-lg object-cover blur-sm hover:blur-none"
+                    width={"100%"}
+                    height={"100%"}
+                  />
+                </a>
                 <h1 className="text-2xl px-2 text-gray-100 rounded-lg shadow-slate-400 bg-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                   Video Library
                 </h1>
@@ -151,12 +170,14 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <div className="relative hover:cursor-pointer">
-                <a href="https://april-ui.netlify.app/"><Image
-                  src={web2}
-                  className="rounded-lg object-cover blur-sm hover:blur-none"
-                  width={"100%"}
-                  height={"100%"}
-                /></a>
+                <a href="https://april-ui.netlify.app/">
+                  <Image
+                    src={web2}
+                    className="rounded-lg object-cover blur-sm hover:blur-none"
+                    width={"100%"}
+                    height={"100%"}
+                  />
+                </a>
                 <h1 className="text-2xl px-2 text-gray-100 rounded-lg shadow-slate-400 bg-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                   Component Library
                 </h1>
@@ -164,12 +185,14 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <div className="relative hover:cursor-pointer">
-                <a href="https://ecom-thrift-shop-aqsaaqeel.vercel.app/"><Image
-                  src={web3}
-                  className="rounded-lg object-cover blur-sm hover:blur-none"
-                  width={"100%"}
-                  height={"100%"}
-                /></a>
+                <a href="https://ecom-thrift-shop-aqsaaqeel.vercel.app/">
+                  <Image
+                    src={web3}
+                    className="rounded-lg object-cover blur-sm hover:blur-none"
+                    width={"100%"}
+                    height={"100%"}
+                  />
+                </a>
                 <h1 className="text-2xl px-2 text-gray-100 rounded-lg shadow-slate-400 bg-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                   E-commerce Web App
                 </h1>
@@ -177,12 +200,14 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <div className="relative hover:cursor-pointer">
-                <a href="https://63dd50a9478c360008ddcb7e--pomo-timer-for-productivity.netlify.app/"><Image
-                  src={web4}
-                  className="rounded-lg object-cover blur-sm hover:blur-none"
-                  width={"100%"}
-                  height={"100%"}
-                /></a>
+                <a href="https://63dd50a9478c360008ddcb7e--pomo-timer-for-productivity.netlify.app/">
+                  <Image
+                    src={web4}
+                    className="rounded-lg object-cover blur-sm hover:blur-none"
+                    width={"100%"}
+                    height={"100%"}
+                  />
+                </a>
                 <h1 className="text-2xl px-2 text-gray-100 rounded-lg shadow-slate-400 bg-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                   Productivity Timer
                 </h1>
@@ -195,28 +220,40 @@ export default function Home() {
                 © 2023{" "}
                 <a href="https://flowbite.com/" class="hover:underline">
                   Aqsa Aqeel
-                </a>
-                {" "}would love to chat {"<3"}
+                </a>{" "}
+                would love to chat {"<3"}
               </span>
               <ul className="h-5 flex flex-wrap items-center justify-center mt-3 text-sm text-white dark:text-gray-400 sm:mt-0">
                 <li className="max-w-s">
-                  <a href="https://github.com/aqsaaqeel" class="mr-4 hover:underline md:mr-6 ">
-                    <Image src={githubemoji} className="h-5 w-5"/>
+                  <a
+                    href="https://github.com/aqsaaqeel"
+                    class="mr-4 hover:underline md:mr-6 "
+                  >
+                    <Image src={githubemoji} className="h-5 w-5" />
                   </a>
                 </li>
                 <li className="max-w-xs">
-                  <a href="https://www.linkedin.com/in/aqsa-aqeel" class="h-5 mr-4 hover:underline md:mr-6">
-                  <Image src={linkedinemoji} className="h-5 w-5"/>
+                  <a
+                    href="https://www.linkedin.com/in/aqsa-aqeel"
+                    class="h-5 mr-4 hover:underline md:mr-6"
+                  >
+                    <Image src={linkedinemoji} className="h-5 w-5" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/aqsacodes" class="mr-4 hover:underline md:mr-6">
-                  <Image src={twitteremoji} className="h-5 w-5"/>
+                  <a
+                    href="https://twitter.com/aqsacodes"
+                    class="mr-4 hover:underline md:mr-6"
+                  >
+                    <Image src={twitteremoji} className="h-5 w-5" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/aqsacodes/" class="mr-4 hover:underline md:mr-6">
-                  <Image src={instagramemoji} className="h-5 w-5"/>
+                  <a
+                    href="https://www.instagram.com/aqsacodes/"
+                    class="mr-4 hover:underline md:mr-6"
+                  >
+                    <Image src={instagramemoji} className="h-5 w-5" />
                   </a>
                 </li>
               </ul>
