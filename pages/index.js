@@ -215,7 +215,7 @@ export default function Home() {
                 <a href="https://flowbite.com/" class="hover:underline">
                   Aqsa Aqeel
                 </a>{" "}
-                would love to chat {"<3"}
+                would love to chat {"<3"} Leave a mail on : aqsaaqeelwork@gmail.com
               </span>
               <ul className="h-5 flex flex-wrap items-center justify-center mt-3 text-sm text-white dark:text-gray-400 sm:mt-0">
                 <li className="max-w-s">
