@@ -7,7 +7,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import Image from "next/image";
-import deved from "../public/illustration-aqsa 3.png";
+import deved from "../public/avatar.png";
 import githubemoji from "../public/githubemoji.png";
 import twitteremoji from "../public/twitteremoji.png";
 import linkedinemoji from "../public/linkedinemoji.png";
@@ -117,14 +117,6 @@ export default function Home() {
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   Frontend Development
                 </h3>
-                {/* <p className="py-2">
-                Developing web apps using modern code practices
-              </p>
-              <h4 className="py-4 text-teal-600">Development tools</h4>
-              <p className="text-gray-800 py-1">ReactJs</p>
-              <p className="text-gray-800 py-1">JavaScript</p>
-              <p className="text-gray-800 py-1">CSS</p>
-              <p className="text-gray-800 py-1">TypeScript</p> */}
               </div>
             </a>
 
@@ -136,9 +128,6 @@ export default function Home() {
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   Blogs and Documentation
                 </h3>
-                {/* <p className="py-2">
-                Technical blogs and content writing in general
-              </p> */}
               </div>
             </a>
           </div>
@@ -232,7 +221,7 @@ export default function Home() {
                 <li className="max-w-s">
                   <a
                     href="https://github.com/aqsaaqeel"
-                    class="mr-4 hover:underline md:mr-6 "
+                    className="mr-4 hover:underline md:mr-6 "
                   >
                     <Image src={githubemoji} alt="page-characters"  className="h-5 w-5" />
                   </a>
@@ -240,7 +229,7 @@ export default function Home() {
                 <li className="max-w-xs">
                   <a
                     href="https://www.linkedin.com/in/aqsa-aqeel"
-                    class="h-5 mr-4 hover:underline md:mr-6"
+                    className="h-5 mr-4 hover:underline md:mr-6"
                   >
                     <Image src={linkedinemoji} alt="page-characters" className="h-5 w-5" />
                   </a>
@@ -248,7 +237,7 @@ export default function Home() {
                 <li>
                   <a
                     href="https://twitter.com/aqsacodes"
-                    class="mr-4 hover:underline md:mr-6"
+                    className="mr-4 hover:underline md:mr-6"
                   >
                     <Image src={twitteremoji} alt="page-characters" className="h-5 w-5" />
                   </a>
@@ -256,7 +245,7 @@ export default function Home() {
                 <li>
                   <a
                     href="https://www.instagram.com/aqsacodes/"
-                    class="mr-4 hover:underline md:mr-6"
+                    className="mr-4 hover:underline md:mr-6"
                   >
                     <Image src={instagramemoji} alt="page-characters" className="h-5 w-5" />
                   </a>
