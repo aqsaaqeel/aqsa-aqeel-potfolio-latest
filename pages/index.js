@@ -86,6 +86,7 @@ export default function Home() {
                 className="rounded-full"
                 fill
                 style={{ objectFit: "cover" }}
+                alt="page-characters" 
                 src={deved}
               />
             </div>
@@ -111,7 +112,7 @@ export default function Home() {
             <a href="https://github.com/aqsaaqeel">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 w-auto">
                 <div className="flex justify-center">
-                  <Image src={code} width={100} height={100} />
+                  <Image src={code} alt="page-characters" width={100} height={100} />
                 </div>
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   Frontend Development
@@ -130,7 +131,7 @@ export default function Home() {
             <a href="https://hashnode.com/@aqsacodes">
               <div className="text-center shadow-lg p-10 rounded-xl my-10 w-auto">
                 <div className="flex justify-center">
-                  <Image src={blog} width={100} height={100} />
+                  <Image src={blog}  alt="page-characters" width={100} height={100} />
                 </div>
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   Blogs and Documentation
@@ -160,6 +161,7 @@ export default function Home() {
                     src={web1}
                     className="rounded-lg object-cover blur-sm hover:blur-none"
                     width={"100%"}
+                    alt="page-characters" 
                     height={"100%"}
                   />
                 </a>
@@ -175,6 +177,7 @@ export default function Home() {
                     src={web2}
                     className="rounded-lg object-cover blur-sm hover:blur-none"
                     width={"100%"}
+                    alt="page-characters" 
                     height={"100%"}
                   />
                 </a>
@@ -190,6 +193,7 @@ export default function Home() {
                     src={web3}
                     className="rounded-lg object-cover blur-sm hover:blur-none"
                     width={"100%"}
+                    alt="page-characters" 
                     height={"100%"}
                   />
                 </a>
@@ -205,6 +209,7 @@ export default function Home() {
                     src={web4}
                     className="rounded-lg object-cover blur-sm hover:blur-none"
                     width={"100%"}
+                    alt="page-characters" 
                     height={"100%"}
                   />
                 </a>
@@ -229,7 +234,7 @@ export default function Home() {
                     href="https://github.com/aqsaaqeel"
                     class="mr-4 hover:underline md:mr-6 "
                   >
-                    <Image src={githubemoji} className="h-5 w-5" />
+                    <Image src={githubemoji} alt="page-characters"  className="h-5 w-5" />
                   </a>
                 </li>
                 <li className="max-w-xs">
@@ -237,7 +242,7 @@ export default function Home() {
                     href="https://www.linkedin.com/in/aqsa-aqeel"
                     class="h-5 mr-4 hover:underline md:mr-6"
                   >
-                    <Image src={linkedinemoji} className="h-5 w-5" />
+                    <Image src={linkedinemoji} alt="page-characters" className="h-5 w-5" />
                   </a>
                 </li>
                 <li>
@@ -245,7 +250,7 @@ export default function Home() {
                     href="https://twitter.com/aqsacodes"
                     class="mr-4 hover:underline md:mr-6"
                   >
-                    <Image src={twitteremoji} className="h-5 w-5" />
+                    <Image src={twitteremoji} alt="page-characters" className="h-5 w-5" />
                   </a>
                 </li>
                 <li>
@@ -253,7 +258,7 @@ export default function Home() {
                     href="https://www.instagram.com/aqsacodes/"
                     class="mr-4 hover:underline md:mr-6"
                   >
-                    <Image src={instagramemoji} className="h-5 w-5" />
+                    <Image src={instagramemoji} alt="page-characters" className="h-5 w-5" />
                   </a>
                 </li>
               </ul>
